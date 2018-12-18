@@ -2,7 +2,7 @@
 A react scaffold that has set up React, Redux, Webpack, Babel, Eslint, Jest, Enzyme and Docker.
 
 
-Running the docker image will serve the website on 8080 port via nginx.
+Running the docker image will serve the website on 8080 port via `nginx`.
 
 ## Prerequisite
 Make sure you have `nodejs`, `npm` and `yarn` installed.
