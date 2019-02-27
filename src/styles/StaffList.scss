@@ -1,0 +1,70 @@
+$green: #127561;
+$border: #dee1e4;
+$border-radius: 4px;
+
+.staffContainer{
+  width: 500px;
+  margin: 80px auto 0;
+  .header{
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    background: $green;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 6px 0;
+  }
+
+  .staff-row{
+    height: 42px;
+    line-height: 42px;
+    padding: 0 15px;
+    border: 1px solid $green;   
+    border-top: none; 
+    border-bottom: 1px solid $border;
+
+    > .staff-name{
+      width: 140px;
+      display: inline-block;
+    }
+
+    > .staff-email{
+      width: 140px;
+      color: gray;
+    }
+
+    > svg {
+      color: $green;
+      width: 42px;
+    }
+  }
+
+  .buttons{
+    border: 1px solid $green;
+    border-top: none;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    text-align: center;
+
+    .delete-button{
+      color: white;
+      margin: 15px 0;
+      width: 200px;
+      padding: 8px 5px;
+      background: $green;
+      border-radius: $border-radius;
+      display: inline-block;
+
+      &:hover{
+        cursor: pointer;
+      }
+    }
+
+    .disabled{
+      background: gray;
+      &:hover{
+        cursor: not-allowed;
+      }
+    }
+  }
+}

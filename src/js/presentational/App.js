@@ -1,13 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import StaffList from '../container/StaffList'
 
 /**
  * the whole app
  */
 function App() {
   return (
-    <div className="App">
-      Hello React;
+    <div>
+      <StaffList />
     </div>
   );
 }
