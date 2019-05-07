@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import StaffList from '../container/StaffList'
+import FlexExample from '../container/FlexExample';
 
 /**
  * the whole app
@@ -8,7 +8,7 @@ import StaffList from '../container/StaffList'
 function App() {
   return (
     <div>
-      <StaffList />
+      <FlexExample />
     </div>
   );
 }
